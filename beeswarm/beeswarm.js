@@ -10,14 +10,14 @@ let Scales = {
 
 // Data structure describing volume of displayed data
 let Count = {
-    total: "total",
-    perCap: "perCapita"
+    total: "year",
+    // perCap: "perCapita"
 };
 
 // Data structure describing legend fields value
 let Legend = {
-    total: "Total Deaths",
-    perCap: "Per Capita Deaths"
+    total: "Year",
+    // perCap: "Per Capita Deaths"
 };
 
 let chartState = {};
@@ -29,20 +29,22 @@ chartState.legend = Legend.total;
 
 // Colors used for circles depending on continent
 let colors = d3.scaleOrdinal()
-    .domain(["asia", "africa", "northAmerica", "europe", "southAmerica", "oceania"])
+    .domain(["Heatwave", "Drought", "Extreme rainfall", "Cold spell", "Storm, extreme rainfall", "Wildfire"])
     .range(['#D81B60','#1976D2','#388E3C','#FBC02D','#E64A19','#455A64']);
 
-d3.select("#asiaColor").style("color", colors("asia"));
-d3.select("#africaColor").style("color", colors("africa"));
-d3.select("#northAmericaColor").style("color", colors("northAmerica"));
-d3.select("#southAmericaColor").style("color", colors("southAmerica"));
-d3.select("#europeColor").style("color", colors("europe"));
-d3.select("#oceaniaColor").style("color", colors("oceania"));
+d3.select("#HeatwaveColor").style("color", colors("Heatwave"));
+d3.select("#DroughtColor").style("color", colors("Drought"));
+d3.select("#Extreme rainfallColor").style("color", colors("Extreme rainfall"));
+d3.select("#Storm, extreme rainfallColor").style("color", colors("Storm, extreme rainfall"));
+d3.select("#Cold spellColor").style("color", colors("Cold spell"));
+d3.select("#WildfireColor").style("color", colors("Wildfire"));
 
 let svg = d3.select("#svganchor")
     .append("svg")
     .attr("width", width)
     .attr("height", height);
+
+    // TOM - FAIL
 
 let xScale = d3.scaleLinear()
     .range([margin.left, width - margin.right]);
@@ -62,7 +64,7 @@ let tooltip = d3.select("#svganchor").append("div")
     .style("opacity", 0);
 
 // Load and process data
-d3.csv("https://martinheinz.github.io/charts/data/who_suicide_stats.csv").then(function (data) {
+d3.csv("data/wwa_studies.csv").then(function (data) {
 
     let dataSet = data;
 
@@ -80,9 +82,9 @@ d3.csv("https://martinheinz.github.io/charts/data/who_suicide_stats.csv").then(f
         if (thisClicked === Count.total) {
             chartState.legend = Legend.total;
         }
-        if (thisClicked === Count.perCap) {
-            chartState.legend = Legend.perCap;
-        }
+        // if (thisClicked === Count.perCap) {
+        //     chartState.legend = Legend.perCap;
+        // }
         redraw();
     });
 
@@ -115,17 +117,18 @@ d3.csv("https://martinheinz.github.io/charts/data/who_suicide_stats.csv").then(f
         if (chartState.measure === Count.perCap) {
             xAxis = d3.axisBottom(xScale)
                 .ticks(10, ".1f")
-                .tickSizeOuter(0);
+                .tickSizeOuter(0)
+                
         }
         else {
             xAxis = d3.axisBottom(xScale)
-                .ticks(10, ".1s")
+                // .ticks(9, ".0s")
                 .tickSizeOuter(0);
         }
 
         d3.transition(svg).select(".x.axis")
             .transition()
-            .duration(1000)
+            .duration(2000)
             .call(xAxis);
 
         // Create simulation with specified dataset
@@ -145,7 +148,7 @@ d3.csv("https://martinheinz.github.io/charts/data/who_suicide_stats.csv").then(f
         }
 
         // Create country circles
-        let countriesCircles = svg.selectAll(".countries")
+        let countriesCircles = svg.selectAll(".events")
             .data(dataSet, function(d) { return d.country });
 
         countriesCircles.exit()
@@ -157,11 +160,11 @@ d3.csv("https://martinheinz.github.io/charts/data/who_suicide_stats.csv").then(f
 
         countriesCircles.enter()
             .append("circle")
-            .attr("class", "countries")
+            .attr("class", "events")
             .attr("cx", 0)
             .attr("cy", (height / 2) - margin.bottom / 2)
             .attr("r", 6)
-            .attr("fill", function(d){ return colors(d.continent)})
+            .attr("fill", function(d){ return colors(d.region)})
             .merge(countriesCircles)
             .transition()
             .duration(2000)
@@ -169,7 +172,7 @@ d3.csv("https://martinheinz.github.io/charts/data/who_suicide_stats.csv").then(f
             .attr("cy", function(d) { return d.y; });
 
         // Show tooltip when hovering over circle (data for respective country)
-        d3.selectAll(".countries").on("mousemove", function(d) {
+        d3.selectAll(".events").on("mousemove", function(d) {
             tooltip.html(`Country: <strong>${d.country}</strong><br>
                           ${chartState.legend.slice(0, chartState.legend.indexOf(","))}: 
                           <strong>${d3.format(",")(d[chartState.measure])}</strong>
@@ -206,7 +209,7 @@ d3.csv("https://martinheinz.github.io/charts/data/who_suicide_stats.csv").then(f
             return checkboxesChecked.length > 0 ? checkboxesChecked : null;
         }
 
-        let checkedBoxes = getCheckedBoxes(".continent");
+        let checkedBoxes = getCheckedBoxes(".region");
 
         let newData = [];
 
@@ -218,7 +221,7 @@ d3.csv("https://martinheinz.github.io/charts/data/who_suicide_stats.csv").then(f
 
         for (let i = 0; i < checkedBoxes.length; i++){
             let newArray = data.filter(function(d) {
-                return d.continent === checkedBoxes[i];
+                return d.region === checkedBoxes[i];
             });
             Array.prototype.push.apply(newData, newArray);
         }

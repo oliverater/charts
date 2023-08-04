@@ -1,0 +1,55 @@
+year,date,event,region,country,outcome,study
+2015,10/07/2015,Heatwave,Europe,Europe,More severe or likely,https://www.worldweatherattribution.org/european-heat-wave-july-2015/
+2015,24/07/2015,Drought,Africa,Ethiopia,Inconclusive,https://www.worldweatherattribution.org/ethiopia-drought-2015/
+2015,10/09/2015,Drought,South America,Brazil,No evidence of change,https://www.worldweatherattribution.org/southeast-brazil-drought-2014-2015/
+2015,01/12/2015,Extreme rainfall,Asia,India,No evidence of change,https://www.worldweatherattribution.org/chennai-floods-december-2015/
+2015,16/12/2015,Extreme rainfall,Europe,United Kingdom,More severe or likely,https://www.worldweatherattribution.org/uks-storm-desmond-december-2015/
+2016,18/03/2016,Heatwave,Australasia,Australia,More severe or likely,https://www.worldweatherattribution.org/great-barrier-reef-bleaching-march-2016/
+2016,01/06/2016,Heatwave,Asia,India,No evidence of change,https://www.worldweatherattribution.org/india-heat-wave-2016/
+2016,09/07/2016,Extreme rainfall,Europe,France & Germany,More severe or likely,https://www.worldweatherattribution.org/european-rainstorms-may-2016/
+2016,14/08/2016,Extreme rainfall,North America,US,More severe or likely,https://www.worldweatherattribution.org/louisiana-downpours-august-2016/
+2016,08/12/2016,Cold spell,North America,US,Less severe or likely,https://www.worldweatherattribution.org/u-s-deep-freeze-december-2016/
+2016,21/12/2016,Heatwave,Arctic,,More severe or likely,https://www.worldweatherattribution.org/north-pole-nov-dec-2016/
+2017,12/01/2017,Cold spell,Europe,"Montenegero, Serbia, Macedonia, Bulgaria, Italy, Greece, Turkey Romania",Less severe or likely,https://www.worldweatherattribution.org/se-europe-cold-january-2017/
+2017,21/02/2017,Heatwave,Australasia,Australia,More severe or likely,https://www.worldweatherattribution.org/extreme-heat-australia-february-2017/
+2017,08/03/2017,Heatwave,North America,US,More severe or likely,
+2017,23/03/2017,Drought,Africa,Kenya,Impacts worsened by climate change,https://www.worldweatherattribution.org/kenya-drought-2016/
+2017,30/03/2017,Drought,Africa,Somalia,Impacts worsened by climate change,https://www.worldweatherattribution.org/somalia-drought-2016-2017/
+2017,29/06/2017,Heatwave,Europe,"Portugal, Spain, France, Switzerland, Belgium, Netherlands, England",More severe or likely,https://www.worldweatherattribution.org/european-heat-june-2017/
+2017,31/08/2017,Extreme rainfall,North America,US,More severe or likely,https://www.worldweatherattribution.org/hurricane-harvey-august-2017/
+2017,27/09/2017,Heatwave,Europe,"France, Switzerland, Belgium, the Netherlands, England, Portugal and Spain",More severe or likely,https://www.worldweatherattribution.org/euro-mediterranean-heat-summer-2017/
+2018,29/01/2018,Cold spell,North America,US,Less severe or likely,https://www.worldweatherattribution.org/winter-in-north-america-is-cold-dec-2017-jan-2018/
+2018,16/03/2018,"Storm, extreme rainfall",Europe,"Germany, Netherlands, France, Switzerland, Spain, ",No evidence of change,https://www.worldweatherattribution.org/the-stormy-month-of-january-2018-over-western-europe/
+2018,13/07/2018,Drought,Africa,South Africa,More severe or likely,https://www.worldweatherattribution.org/the-role-of-climate-change-in-the-2015-2017-drought-in-the-western-cape-of-south-africa/
+2018,17/07/2018,Extreme rainfall,Asia,Japan,Inconclusive,https://www.worldweatherattribution.org/a-quick-look-at-the-extreme-rainfall-in-japan/
+2018,28/07/2018,Heatwave,Europe,"Ireland, Netherlands, Denamrk, Norway, Sweden, Finland",More severe or likely,https://www.worldweatherattribution.org/attribution-of-the-2018-heat-in-northern-europe/
+2019,15/03/2019,Extreme rainfall,Asia,Bangladesh,More severe or likely,https://www.worldweatherattribution.org/bangladesh-floods-august-2017/
+2019,02/07/2019,Heatwave,Europe,France,More severe or likely,https://www.worldweatherattribution.org/human-contribution-to-record-breaking-june-2019-heatwave-in-france/
+2019,02/08/2019,Heatwave,Europe,,More severe or likely,https://www.worldweatherattribution.org/human-contribution-to-the-record-breaking-july-2019-heat-wave-in-western-europe/
+2019,27/09/2019,Extreme rainfall,North America,America,More severe or likely,https://www.worldweatherattribution.org/rapid-attribution-of-the-extreme-rainfall-in-texas-from-tropical-storm-imelda/
+2020,10/01/2020,Wildfire,Australasia,Australia,More severe or likely,https://www.worldweatherattribution.org/bushfires-in-australia-2019-2020/
+2020,15/07/2020,Heatwave,Asia,Russia,More severe or likely,https://www.worldweatherattribution.org/siberian-heatwave-of-2020-almost-impossible-without-climate-change/
+2021,15/06/2021,Cold spell,Europe,France,Less severe or likely,https://www.worldweatherattribution.org/human-caused-climate-change-Climate changed-the-likelihood-of-early-growing-period-frost-in-france/
+2021,07/07/2021,Heatwave,North America,"US, Canada",More severe or likely,https://www.worldweatherattribution.org/western-north-american-extreme-heat-virtually-impossible-without-human-caused-climate-change/
+2021,23/08/2021,Extreme rainfall,Europe,"Germany, Belgium, Luxembourg, Belgium, Netherlands",More severe or likely,https://www.worldweatherattribution.org/heavy-rainfall-which-led-to-severe-flooding-in-western-europe-made-more-likely-by-climate-change/
+2021,01/12/2021,Drought,Africa,Madagascar,No evidence of change,https://www.worldweatherattribution.org/factors-other-than-climate-change-are-the-main-drivers-of-recent-food-insecurity-in-southern-madagascar/
+2021,16/12/2021,Extreme rainfall,Asia,Vietnam,No evidence of change,https://www.worldweatherattribution.org/limited-role-of-climate-change-in-october-2020-vietnam-flooding/
+2022,11/04/2022,Extreme rainfall,Africa,"Madagascar, Mozambique & Malawi",More severe or likely,https://www.worldweatherattribution.org/climate-change-Climate changed-rainfall-associated-with-tropical-cyclones-hitting-highly-vulnerable-communities-in-madagascar-mozambique-malawi/
+2022,13/05/2022,Extreme rainfall,Africa,South Africa,More severe or likely,https://www.worldweatherattribution.org/climate-change-exacerbated-rainfall-causing-devastating-flooding-in-eastern-south-africa/
+2022,18/05/2022,"Storm, extreme rainfall",Asia,Japan,More severe or likely,https://www.worldweatherattribution.org/climate-change-added-4bn-to-damage-of-japans-typhoon-hagibis/
+2022,23/05/2022,Heatwave,Asia,"India, Pakistan",More severe or likely,https://www.worldweatherattribution.org/climate-change-made-devastating-early-heat-in-india-and-pakistan-30-times-more-likely/
+2022,04/07/2022,Extreme rainfall,South America,Brazil,More severe or likely,https://www.worldweatherattribution.org/climate-change-Climate changed-heavy-rainfall-hitting-vulnerable-communities-in-eastern-northeast-brazil/
+2022,28/07/2022,Heatwave,Europe,United Kingdom,More severe or likely,https://www.worldweatherattribution.org/without-human-caused-climate-change-temperatures-of-40c-in-the-uk-would-have-been-extremely-unlikely/
+2022,14/09/2022,Extreme rainfall,Asia,Pakistan,More severe or likely,https://www.worldweatherattribution.org/climate-change-likely-Climate changed-extreme-monsoon-rainfall-flooding-highly-vulnerable-communities-in-pakistan/
+2022,05/10/2022,Drought,"North America, Northern Asia, North America",,More severe or likely,https://www.worldweatherattribution.org/high-temperatures-exacerbated-by-climate-change-made-2022-northern-hemisphere-droughts-more-likely/
+2022,16/11/2022,Drought,Africa,"Niger, Chad, Burkina Faso, Mali",Inconclusive,https://www.worldweatherattribution.org/food-crisis-in-central-sahel-in-2022-driven-by-chronic-vulnerability-with-uncertain-role-of-climate-change/
+2022,16/12/2022,Extreme rainfall,Africa,"Niger, Chad, Mali, Cameroon, Nigeria, Benin",More severe or likely,https://www.worldweatherattribution.org/climate-change-exacerbated-heavy-rainfall-leading-to-large-scale-flooding-in-highly-vulnerable-communities-in-west-africa/
+2022,21/12/2022,Heatwave,South America,"Argentina, Paraguay",More severe or likely,https://www.worldweatherattribution.org/climate-change-made-record-breaking-early-season-heat-in-argentina-and-paraguay-about-60-times-more-likely/
+2023,16/02/2023,Drought,South America,"Argentina, Uruguay",Impacts worsened by climate change,https://www.worldweatherattribution.org/vulnerability-and-high-temperatures-exacerbate-impacts-of-ongoing-drought-in-central-south-america/
+2023,14/03/2023,Extreme rainfall,Australasia,New Zealand,More severe or likely,https://www.worldweatherattribution.org/the-role-of-climate-change-in-extreme-rainfall-associated-with-cyclone-gabrielle-over-aotearoa-new-zealands-east-coast/
+2023,27/03/2023,Drought,Africa,"Somalia, Kenya, Ethiopia",More severe or likely,https://www.worldweatherattribution.org/human-induced-climate-change-Climate changed-drought-severity-in-southern-horn-of-africa/
+2023,05/05/2023,Heatwave,"Africa, Europe","Portugal, Spain, Morocco, Algeria",More severe or likely,https://www.worldweatherattribution.org/extreme-april-heat-in-spain-portugal-morocco-algeria-almost-impossible-without-climate-change/
+2023,18/05/2023,Heatwave,Asia,"Bangladesh, India, Thailand, Laos",More severe or likely,https://www.worldweatherattribution.org/extreme-humid-heat-in-south-asia-in-april-2023-largely-driven-by-climate-change-detrimental-to-vulnerable-and-disadvantaged-communities/
+2023,31/05/2023,Extreme rainfall,Europe,Italy,No evidence of change,https://www.worldweatherattribution.org/limited-net-role-for-climate-change-in-heavy-spring-rainfall-in-emilia-romagna/
+2023,29/06/2023,Extreme rainfall,Africa,"Rwanda, Democratic Republic of Congo",Inconclusive,https://www.worldweatherattribution.org/limited-data-prevent-assessment-of-role-of-climate-change-in-deadly-floods-affecting-highly-vulnerable-communities-around-lake-kivu/
+2023,25/07/2023,Heatwave,"Europe, North America, Asia","China, southern Europe, North America",More severe or likely,https://www.worldweatherattribution.org/extreme-heat-in-north-america-europe-and-china-in-july-2023-made-much-more-likely-by-climate-change/
